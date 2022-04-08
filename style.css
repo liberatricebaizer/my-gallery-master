@@ -1,0 +1,136 @@
+
+
+
+         *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: inherit;
+           }
+body{
+       background: #FFFFFF;
+       border-radius: 24px;
+}
+
+.container{
+                  font-family: 'Montserrat', sans-serif;
+                    max-width: 1440px;
+                    height: 1577px;
+                    text-align: center;
+                    padding:  60px  ;
+
+}
+
+html{
+                    box-sizing: border-box;
+                  }
+
+ .image-sec img{
+     width:  156px;
+     height:  156px;
+     border-radius: 16px;
+ }
+ .name{
+   color: #4E5150;
+   font-size:  24px;
+   line-height:  29px;
+   margin-top: 10px;
+ }
+
+ .city{
+   color: #A9A9A9;
+   font-size:  14px;
+   line-height:  17px;
+   margin-top: 6px;
+ }
+
+ .stats{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.stats-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 24px;
+  margin-top: 24px;
+  width: 100px;
+  height: 67px;
+  background: #E5E5E5;
+border-radius: 12px;
+
+}
+
+.stat-num{
+  font-size: 18px;
+line-height: 22px;
+color: #4E5150;
+}
+
+.stat-title{
+  color: #BDBDBD;
+  letter-spacing: 0.1rem;
+  font-size: 14px;
+} 
+
+.image img{
+  position:  absolute;
+  border-radius: 12px;
+
+}
+.photo1{
+  width: 299px;
+height: 299px;
+left: 238px;
+ top: 441px;
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+
+}
+.photo2{
+  width: 629px;
+height: 299px;
+left: 569px;
+top: 441px;
+background: #C4C4C4;
+}
+.photo3{
+  width: 627px;
+height: 299px;
+left: 238px;
+top: 772px;
+background: #C4C4C4;
+}
+.photo6{
+  width: 299px;
+  height: 299px;
+  left: 238px;
+  top: 1103px;
+  
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+}
+
+.photo5{
+  width: 299px;
+height: 299px;
+left: 570px;
+top: 1103px;
+
+filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+}
+
+.photo4{
+  width: 297px;
+height: 630px;
+left: 901px;
+top: 772px;
+
+}
+footer{
+  text-align: center;
+}
+
+
+              
